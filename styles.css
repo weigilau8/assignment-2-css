@@ -1,0 +1,79 @@
+/* created by: Luigi Lauron */
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    cursor: url(https://cur.cursors-4u.net/others/oth-1/oth28.cur), auto !important;
+  }
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: url('img/star-wars-darth-vader-1920x1080.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: black;
+      position: relative;
+    height: 100vh;
+  }
+  header {
+      margin-top: 50px;
+      max-width: 500px;
+      padding: 0 1rem;
+      text-align: left;
+  }
+  header h1 {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: white;
+  }
+  section {
+      background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+      color: white;
+      margin: 10px 20px;
+      max-width: 420px;
+      font-size: 1em;
+      padding: 1.5rem;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  article {
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+      color: white;
+      margin: 10px 20px;
+      max-width: 420px;
+      font-size: 1em;
+      padding: 1.5em 1.5em 1em;
+  }
+  blockquote {
+    color: white;
+      font-size: 1em;
+      margin: 20px auto;
+      max-width: 600px;
+  }
+  footer {
+    background-color: #EB212E ;
+      margin: 50px 0;
+      position: absolute;
+      bottom: 0;
+    width:100%;  
+  }
+  footer p {
+    padding: 10px 15px;
+    color: white;
+  }
+  section:hover, article:hover, footer:hover {
+    box-shadow: 0 0 5px #fff,0 0 8px #fff,0 0 12px #fff,0 0 15px red,0 0 15px red;
+  }
+  a {
+      color: lightblue;
+      text-decoration: none;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
+  
